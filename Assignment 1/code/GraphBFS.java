@@ -1,4 +1,3 @@
-package code;
 import java.util.*;
 
 class Vertex {
@@ -27,7 +26,7 @@ class GraphBFS {
 
     public static void main(String[] args) {
         GraphBFS g = new GraphBFS(10);
-
+		
         Vertex v1 = new Vertex(1, null);
         Vertex v2 = new Vertex(2, v1);
         Vertex v8 = new Vertex(8, v1);
